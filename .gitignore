@@ -1,3 +1,4 @@
 models/
+lemmatizer/
 credentials.yml
 rasa_core.log
