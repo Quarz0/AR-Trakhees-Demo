@@ -1,0 +1,23 @@
+language: "fasttext_ar"
+
+pipeline:
+- name: "nlp_spacy"
+- name: "tokenizer_spacy"
+# - name: "token_lemma_farasa"
+- name: "intent_entity_featurizer_regex"
+- name: "ner_spacy"
+- name: "ner_crf"
+- name: "ner_synonyms"
+- name: "intent_lemma_farasa"
+- name: "intent_featurizer_spacy"
+- name: "intent_classifier_sklearn"
+
+policies:
+  - name: KerasPolicy
+    epochs: 100
+    max_history: 5
+  - name: FallbackPolicy
+    fallback_action_name: 'action_default_fallback'
+  - name: MemoizationPolicy
+    max_history: 5
+  - name: FormPolicy
