@@ -129,3 +129,6 @@
 ## trakhees_locations
 * trakhees_locations{"freezone_license_location":"قرية جبل علي"}
     - action_trakhees_locations
+
+## fallback
+  - utter_default
