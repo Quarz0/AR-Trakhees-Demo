@@ -4,6 +4,8 @@ entities:
   - receipt_account_type
   - name
   - freezone_license_location
+  - cancelled_licence_company_type
+  - cancelled_licence_type
 
 intents:
   - enter_data: {use_entities: false}
@@ -52,6 +54,18 @@ slots:
     type: text
   freezone_license_location:
     type: text
+  can_cancel_licence:
+      type: unfeaturized
+      auto_fill: false
+  cancelled_licence_type:
+      type: unfeaturized
+      auto_fill: false
+  cancelled_licence_company_type:
+      type: unfeaturized
+      auto_fill: false
+
+forms:
+  - cancel_licence_form
 
 templates:
   utter_great:
@@ -233,8 +247,86 @@ http://trakhees.ae/en/cld/Documents/Special%20Development%20Zones%20-%20Trakhees
   utter_deny_trakhees_location:
     - text: "نأسف ولكن استخراج الرخص الحرة غير متوفر في {freezone_license_location} حتى الأن"
   utter_list_all_trakhees_locations:
-    - text: "يمكن استخراج رخص المناطق الحرة من الأماكن التالية في تراخيص:
-      "
+    - text: "يمكن استخراج رخص المناطق الحرة من الأماكن التالية في تراخيص:"
+  utter_ask_can_cancel_licence:
+    - text: "هل تملك الرخصة أو تحمل توكيل من صاحبها؟"
+      buttons:
+      - title: "نعم"
+        payload: '/choose{"can_cancel_licence": "true"}'
+      - title: "لا"
+        payload: '/choose{"can_cancel_licence": "false"}'
+  utter_ask_cancelled_licence_type:
+    - text: "هل هي رخصة منطقة حرة, رخصة شركة أم رخصة تجارية؟"
+      buttons:
+      - title: "رخصة منطقة حرة"
+        payload: '/choose{"cancelled_licence_type": "freezone"}'
+      - title: "رخصة شركة"
+        payload: '/choose{"cancelled_licence_type": "company"}'
+      - title: "رخصة تجارية"
+        payload: '/choose{"cancelled_licence_type": "commerical"}'
+  utter_ask_cancelled_licence_company_type:
+    - text: "هل هي شركة تحت القانون المحلي أم فرع لشركة بدبي؟"
+      buttons:
+      - title: "شركة قانون محلي"
+        payload: '/choose{"cancelled_licence_company_type": "law"}'
+      - title: "شركة لفرع بدبي"
+        payload: '/choose{"cancelled_licence_company_type": "branch"}'
+  utter_submit:
+    - text: "شكراً لك!"
+  utter_wrong_can_cancel_licence:
+    - text: "اسف ولكن لم أفهم اذا كانت اجابتك بالأيجاب أو النفي!"
+  utter_can_not_cancel_licence:
+    - text: "لا يمكن إلغاء رخصة لا تملكها أو لا تملك توكيل من صاحبها"
+  utter_cancelled_licence_company_not_supported:
+    - text: "أسف ولكن لا أعرف شركة من نوع {cancelled_licence_company_type}"
+  utter_cancelled_licence_not_supported:
+    - text: "أسف ولكن لا أعرف رخصة من نوع {cancelled_licence_type}"
+  utter_cancelled_licence_company_law:
+    - text: "المؤسسة الفردية / شركة أعمال مهنية/ شركة ذات مسؤولية محدودة
+1. نموذج طلب التسجيل والترخيص (نموذج رقم: بي آر/1)
+2. الرخصة الأصلية.
+3. خطاب عدم ممانعة من (وزارة العمل والهجرة)
+4. قرار الشركاء بتصفية الشركة مصدق عليه من كاتب العدل (للشركات ذات المسؤولية المحدودة)
+5. خطاب من الشركة المراد تصفيتها "
+
+  utter_cancelled_licence_company_branch:
+    - text: "للشركات ذات المسؤولية المحدودة فرع شركة مسجلة في دبي أو أي إمارة أخرى
+1. خطاب عدم ممانعة من الشركة الأم
+2. نموذج طلب التسجيل والترخيص
+3. الرخصة الأصلية.
+4. شهادة التسجيل الأصلية في السجل التجاري (إذا كان المكتب الرئيسي مسجل في دبي).
+5. خطاب عدم ممانعة من (وزارة العمل والهجرة)"
+  utter_cancelled_licence_freezone:
+    - text: "تعتبر متطلبات إلغاء رخصة المنطقة الحرة كما يلي
+1. يتم إلغاء جميع التأشيرات و تسوية إجراءاتها باستثناء تأشيرة المدير
+2. خطاب مخالصة من قسم التراخيص التجارية
+3. خطاب التصفية المقرر تقديمه من مراجع الحسابات المسجل في دبي لصالح شركة المنطقة الحرة ومؤسسة المنطقة الحرة فقط.
+4. دفع كل الرسوم الواجب تسويتها.
+5. خطاب مخالصة من هيئة المنطقة الحرة بجبل علي (للشركات المنقول من هيئة المنطقة الحرة بجبل علي ) ليتم تقديمها.
+6. الرخصة الأصلية أو صورة إذا كانت الرخصة منتهية.
+7. إلغاء بطاقة المنشأة وتأشيرة المدير 8. الشهادة الأصلية وشهادة الشراكة أو نسخة منها
+9. إلغاء الحساب البنكي
+10. إلغاء عقد الإيجار تحت اسم الشركة.
+11. خطاب عدم ممانعة من الشركة لإلغاء الرخصة .
+ملاحظة: التقديم يجب ان يكون من خلال الشخص المخول إلغاء تراخيص الشركة بموجب القانون المحلي"
+
+  utter_cancelled_licence_commerical:
+    - text: "إلغاء تسجيل الشركة التجارية
+الخطوة الأولى * إخطار بتصفية الشركة وتعيين المصفي (موافقة من الإدارة القانونية)
+1. نموذج طلب التسجيل والترخيص
+2. نسخة من الوثيقة الرسمية تبين تصفية الشركة وتعيين المصفي القانوني مع ذكر اسمه وتحديد طريقة التصفية، وقد يكون ذلك إما بقرار من شركاء الشركة أو الجمعية العمومية حسب الأصول، أو بأمر من المحكمة.
+3. نسخة معتمدة من توقيع مدير (مديرين) الشركة ، والمصفي القانوني للشركة، حسب مقتضى الحال ، موثق من كاتب العدل.
+4. شهادة التسجيل الأصلية في السجل التجاري + الرخصة التجارية الأصلية.
+5. صورة من رخصة المصفي + شهادة مراقب الحالة + خطاب من المصفي بالموافقة على تصفية الشركة.
+
+الخطوة التالية * إلغاء الرخصة (الرخص) والإلغاء من السجل التجاري
+1. شهادات صادرة في الإمارات الأخرى تشير إلى إلغاء الرخصة (إن وجدت).
+2. النسخة الأصلية من الحساب النهائي للتصفية المعتمدة من الشركاء أو الجمعية العمومية ومختومة من المصفي القانوني.
+3. خطاب عدم ممانعة بالإلغاء صادرة عن وزارة العمل والشؤون الاجتماعية.
+4. إلغاء الإقامة للشريك (الشركاء) في حالة كفالتهم على رخصتهم.
+5. نسخة من إشعار تصفية الشركة وتعيين المصفي ليتم نشره في الصحف الرسمية.
+6. خطاب من الشريك بالاتفاق على تصفية الشركة."
+
   #'3 More example to be added'
   # utter_dragon_mart:
   #   - text: "Federal license can be obtained for non chinese for freezone only chinese"

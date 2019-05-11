@@ -8,6 +8,8 @@ import logging
 import os
 import typing
 import json
+import socket
+import sys
 from typing import Any, Dict, List, Optional, Text, Tuple
 
 from rasa_nlu.config import InvalidConfigError, RasaNLUModelConfig
@@ -15,9 +17,23 @@ from rasa_nlu.extractors import EntityExtractor
 from rasa_nlu.model import Metadata
 from rasa_nlu.training_data import Message, TrainingData
 from rasa_nlu.components import Component
-from rasa_nlu.lemma_farasa import lemmatize
 
+def lemmatize(text: Text):
 
+        data = ""
+        # Create a TCP/IP socket
+        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+        # Connect the socket to the port where the server is listening
+        server_address = ('localhost', 9876)
+        sock.connect(server_address)
+        try:
+            # Send data
+            sock.sendall(bytes(text + '\n', "utf-8"))
+            data = str(sock.recv(16384), "utf-8").strip()
+        finally:
+            sock.close()
+        return data
 
 class FarasaLemmatizer(Component):
     name = "lemma_farasa"

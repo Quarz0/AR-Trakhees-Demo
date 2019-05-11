@@ -75,7 +75,22 @@
 
 ## ask_to_cancel_visa_story
 * ask_to_cancel_visa
-    -utter_ask_to_cancel_visa
+    - cancel_licence_form
+    - form{"name": "cancel_licence_form"}
+    - form{"name": null}
+
+## unhappy path
+* greet
+    - utter_greet
+* ask_to_cancel_visa
+- cancel_licence_form
+    - form{"name": "cancel_licence_form"}
+* enter_data
+    - utter_default
+    - cancel_licence_form
+    - form{"name": null}
+* thank
+    - utter_noworries
 
 ## receipt_prepaid_account_story
 * receipt_prepaid_account

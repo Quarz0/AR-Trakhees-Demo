@@ -28,10 +28,14 @@ train-nlu:
 train-core:
 	python3 -m rasa_core.train -c nlu_config.yml -d domain.yml -s data/core -o models/trakhees/dialogue
 
-cmdline:
-	python3 -m rasa_core.run -d models/trakhees/dialogue -u models/trakhees/nlu --endpoints endpoints.yml
+run-core:
+	python3 -m rasa_core.run -d models/trakhees/dialogue -u models/trakhees/nlu --verbose --endpoints endpoints.yml --debug
 
-action-server:
+run:
+	make run-actions&
+	make run-core
+
+run-actions:
 	python3 -m rasa_core_sdk.endpoint --actions demo.actions
 
 interactive:

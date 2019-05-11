@@ -2,3 +2,6 @@ models/
 lemmatizer/
 credentials.yml
 rasa_core.log
+__pycache__/
+demo/__pycache__/
+
