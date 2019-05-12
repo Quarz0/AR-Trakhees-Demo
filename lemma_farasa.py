@@ -83,7 +83,7 @@ class FarasaLemmatizer(Component):
                 else:
                     tmp_msg += new_msg[i]
 
-            example.text = lemmatize(tmp_msg)
+            example.text = tmp_msg
             example.set("entities", entities)
             example.set("spacy_doc", self.doc_for_text(example.text, spacy_nlp))
 

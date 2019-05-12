@@ -373,7 +373,106 @@
 - الغاء الرخصة من فضلك
 - أحاول الغاء الرخصة الخاصة بي
 - ساعدني في ايقاف الرخصة من داخل البلاد
-
+- كيفية الغاء [رخصة منطقة حرة](cancelled_licence_type)
+- كيف الغي [رخصة منطقة حرة](cancelled_licence_type)
+- كيف اوقف [رخصة منطقة حرة](cancelled_licence_type)
+- اريد ايقاف [رخصة منطقة حرة](cancelled_licence_type)
+- ما هي خطوات إلغاء [رخصة منطقة حرة](cancelled_licence_type)
+- متطلبات ايقاف [رخصة منطقة حرة](cancelled_licence_type)
+- ماذا علي ان افعل لاوقف [رخصة منطقة حرة](cancelled_licence_type)
+- خطوات إلغاء [رخصة منطقة حرة](cancelled_licence_type) في تراخيص
+- ساعدني في الغاء [رخصة منطقة حرة](cancelled_licence_type) الخاصة بي من فضلك
+- اجراءات الغاء [رخصة منطقة حرة](cancelled_licence_type) من داخل البلاد
+- الغاء [رخصة منطقة حرة](cancelled_licence_type) من خارج البلاد
+- كيف يمكنني الغاء [رخصة منطقة حرة](cancelled_licence_type) من خارج دبي
+- ايقاف [رخصة منطقة حرة](cancelled_licence_type) من بلجيكا
+- هل يمكنني الغاء [رخصة منطقة حرة](cancelled_licence_type) من مصر؟
+- هل توجد إمكانية لألغاء أو ايقاف [رخصة منطقة حرة](cancelled_licence_type) الخاصة بي؟
+- ايقاف [رخصة منطقة حرة](cancelled_licence_type)
+- طريقة الغاء [رخصة منطقة حرة](cancelled_licence_type)
+- الغاء [رخصة منطقة حرة](cancelled_licence_type) من فضلك
+- أحاول الغاء [رخصة منطقة حرة](cancelled_licence_type) الخاصة بي
+- ساعدني في ايقاف [رخصة منطقة حرة](cancelled_licence_type) من داخل البلاد
+- كيفية الغاء [رخصة تجارية](cancelled_licence_type)
+- كيف الغي [رخصة تجارية](cancelled_licence_type)
+- كيف اوقف [رخصة تجارية](cancelled_licence_type)
+- اريد ايقاف [رخصة تجارية](cancelled_licence_type)
+- ما هي خطوات إلغاء [رخصة تجارية](cancelled_licence_type)
+- متطلبات ايقاف [رخصة تجارية](cancelled_licence_type)
+- ماذا علي ان افعل لاوقف [رخصة تجارية](cancelled_licence_type)
+- خطوات إلغاء [رخصة تجارية](cancelled_licence_type) في تراخيص
+- ساعدني في الغاء [رخصة تجارية](cancelled_licence_type) الخاصة بي من فضلك
+- اجراءات الغاء [رخصة تجارية](cancelled_licence_type) من داخل البلاد
+- الغاء [رخصة تجارية](cancelled_licence_type) من خارج البلاد
+- كيف يمكنني الغاء [رخصة تجارية](cancelled_licence_type) من خارج دبي
+- ايقاف [رخصة تجارية](cancelled_licence_type) من بلجيكا
+- هل يمكنني الغاء [رخصة تجارية](cancelled_licence_type) من مصر؟
+- هل توجد إمكانية لألغاء أو ايقاف [رخصة تجارية](cancelled_licence_type) الخاصة بي؟
+- ايقاف [رخصة تجارية](cancelled_licence_type)
+- طريقة الغاء [رخصة تجارية](cancelled_licence_type)
+- الغاء [رخصة تجارية](cancelled_licence_type) من فضلك
+- أحاول الغاء [رخصة تجارية](cancelled_licence_type) الخاصة بي
+- ساعدني في ايقاف [رخصة تجارية](cancelled_licence_type) من داخل البلاد
+- كيفية الغاء [رخصة شركة](cancelled_licence_type)
+- كيف الغي [رخصة شركة](cancelled_licence_type)
+- كيف اوقف [رخصة شركة](cancelled_licence_type)
+- اريد ايقاف [رخصة شركة](cancelled_licence_type)
+- ما هي خطوات إلغاء [رخصة شركة](cancelled_licence_type)
+- متطلبات ايقاف [رخصة شركة](cancelled_licence_type)
+- ماذا علي ان افعل لاوقف [رخصة شركة](cancelled_licence_type)
+- خطوات إلغاء [رخصة شركة](cancelled_licence_type) في تراخيص
+- ساعدني في الغاء [رخصة شركة](cancelled_licence_type) الخاصة بي من فضلك
+- اجراءات الغاء [رخصة شركة](cancelled_licence_type) من داخل البلاد
+- الغاء [رخصة شركة](cancelled_licence_type) من خارج البلاد
+- كيف يمكنني الغاء [رخصة شركة](cancelled_licence_type) من خارج دبي
+- ايقاف [رخصة شركة](cancelled_licence_type) من بلجيكا
+- هل يمكنني الغاء [رخصة شركة](cancelled_licence_type) من مصر؟
+- هل توجد إمكانية لألغاء أو ايقاف [رخصة شركة](cancelled_licence_type) الخاصة بي؟
+- ايقاف [رخصة شركة](cancelled_licence_type)
+- طريقة الغاء [رخصة شركة](cancelled_licence_type)
+- الغاء [رخصة شركة](cancelled_licence_type) من فضلك
+- أحاول الغاء [رخصة شركة](cancelled_licence_type) الخاصة بي
+- ساعدني في ايقاف [رخصة شركة](cancelled_licence_type) من داخل البلاد
+- كيفية الغاء [رخصة شركة](cancelled_licence_type) [قانون محلي](cancelled_licence_company_type)
+- كيف الغي [رخصة شركة](cancelled_licence_type) [قانون محلي](cancelled_licence_company_type)
+- كيف اوقف [رخصة شركة](cancelled_licence_type) تحت [قانون محلي](cancelled_licence_company_type)
+- اريد ايقاف [رخصة شركة](cancelled_licence_type) [قانون محلي](cancelled_licence_company_type)
+- ما هي خطوات إلغاء [رخصة شركة](cancelled_licence_type) [قانون محلي](cancelled_licence_company_type)
+- متطلبات ايقاف [رخصة شركة](cancelled_licence_type) تحت [قانون محلي](cancelled_licence_company_type)
+- ماذا علي ان افعل لاوقف [رخصة شركة](cancelled_licence_type) [قانون محلي](cancelled_licence_company_type)
+- خطوات إلغاء [رخصة شركة](cancelled_licence_type) [قانون محلي](cancelled_licence_company_type) في تراخيص
+- ساعدني في الغاء [رخصة شركة](cancelled_licence_type) تحت [قانون محلي](cancelled_licence_company_type) الخاصة بي من فضلك
+- اجراءات الغاء [رخصة شركة](cancelled_licence_type) [قانون محلي](cancelled_licence_company_type) من داخل البلاد
+- الغاء [رخصة شركة](cancelled_licence_type) تحت [قانون محلي](cancelled_licence_company_type) من خارج البلاد
+- كيف يمكنني الغاء [رخصة شركة](cancelled_licence_type) [قانون محلي](cancelled_licence_company_type) من خارج دبي
+- ايقاف [رخصة شركة](cancelled_licence_type) [قانون محلي](cancelled_licence_company_type) من بلجيكا
+- هل يمكنني الغاء [رخصة شركة](cancelled_licence_type) [قانون محلي](cancelled_licence_company_type) من مصر؟
+- هل توجد إمكانية لألغاء أو ايقاف [رخصة شركة](cancelled_licence_type) [قانون محلي](cancelled_licence_company_type) الخاصة بي؟
+- ايقاف [رخصة شركة](cancelled_licence_type) تحت [قانون محلي](cancelled_licence_company_type)
+- طريقة الغاء [رخصة شركة](cancelled_licence_type) [قانون محلي](cancelled_licence_company_type)
+- الغاء [رخصة شركة](cancelled_licence_type) تحت [قانون محلي](cancelled_licence_company_type) من فضلك
+- أحاول الغاء [رخصة شركة](cancelled_licence_type) [قانون محلي](cancelled_licence_company_type) الخاصة بي
+- ساعدني في ايقاف [رخصة شركة](cancelled_licence_type) [قانون محلي](cancelled_licence_company_type) من داخل البلاد
+- كيفية الغاء [رخصة شركة](cancelled_licence_type) [فرع](cancelled_licence_company_type)
+- كيف الغي [رخصة شركة](cancelled_licence_type) [فرع](cancelled_licence_company_type) في الامارات
+- كيف اوقف [رخصة شركة](cancelled_licence_type)  [فرع](cancelled_licence_company_type)
+- اريد ايقاف [رخصة شركة](cancelled_licence_type) [فرع](cancelled_licence_company_type)
+- ما هي خطوات إلغاء [رخصة شركة](cancelled_licence_type) [فرع](cancelled_licence_company_type) في الامارات
+- متطلبات ايقاف [رخصة شركة](cancelled_licence_type)  [فرع](cancelled_licence_company_type)
+- ماذا علي ان افعل لاوقف [رخصة شركة](cancelled_licence_type) [فرع](cancelled_licence_company_type)
+- خطوات إلغاء [رخصة شركة](cancelled_licence_type) [فرع](cancelled_licence_company_type) في الامارات في تراخيص
+- ساعدني في الغاء [رخصة شركة](cancelled_licence_type)  [فرع](cancelled_licence_company_type) الخاصة بي من فضلك
+- اجراءات الغاء [رخصة شركة](cancelled_licence_type) [فرع](cancelled_licence_company_type) من داخل البلاد
+- الغاء [رخصة شركة](cancelled_licence_type)  [فرع](cancelled_licence_company_type) في الامارات من خارج البلاد
+- كيف يمكنني الغاء [رخصة شركة](cancelled_licence_type) [فرع](cancelled_licence_company_type) من خارج دبي
+- ايقاف [رخصة شركة](cancelled_licence_type) [فرع](cancelled_licence_company_type) من بلجيكا
+- هل يمكنني الغاء [رخصة شركة](cancelled_licence_type) [فرع](cancelled_licence_company_type) من مصر؟
+- هل توجد إمكانية لألغاء أو ايقاف [رخصة شركة](cancelled_licence_type) [فرع](cancelled_licence_company_type) في الامارات الخاصة بي؟
+- ايقاف [رخصة شركة](cancelled_licence_type)  [فرع](cancelled_licence_company_type)
+- طريقة الغاء [رخصة شركة](cancelled_licence_type) [فرع](cancelled_licence_company_type)
+- الغاء [رخصة شركة](cancelled_licence_type)  [فرع](cancelled_licence_company_type) من فضلك
+- أحاول الغاء [رخصة شركة](cancelled_licence_type) [فرع](cancelled_licence_company_type) في الامارات الخاصة بي
+- ساعدني في ايقاف [رخصة شركة](cancelled_licence_type) [فرع](cancelled_licence_company_type) من داخل البلاد
 
 <!-- 16 -->
 ## intent:receipt_prepaid_account
