@@ -31,6 +31,9 @@ train-core:
 run-core:
 	python3 -m rasa_core.run -d models/trakhees/dialogue -u models/trakhees/nlu --verbose --endpoints endpoints.yml --debug
 
+run-farasa:
+	java -jar lemmatizer/FarasaSegmenterJar.jar
+
 run:
 	make run-actions&
 	make run-core

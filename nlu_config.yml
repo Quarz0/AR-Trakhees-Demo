@@ -1,4 +1,4 @@
-language: "ar_model"
+language: "fasttext_ar"
 
 pipeline:
 - name: "SpacyNLP"
